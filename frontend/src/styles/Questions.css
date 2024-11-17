@@ -1,0 +1,144 @@
+.questions {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+li button {
+  background-color: #ff4e4e;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+li button:hover {
+  background-color: #e04e4e;
+}
+
+li span {
+  flex-grow: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.add-question {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-question input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.add-question button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-question button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.add-question button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f2dede;
+  color: #a94442;
+  border-radius: 4px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 200px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+button {
+  background-color: #4caf50;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.edit-actions button {
+  background-color: #ffa500;
+  padding: 5px 10px;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-actions button:hover {
+  background-color: #e69500;
+}

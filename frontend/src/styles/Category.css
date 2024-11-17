@@ -1,0 +1,80 @@
+/* Category.css */
+.category {
+  background: #1b17fd;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.category h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f7f3f3;
+  text-align: center;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  background: #f9f9f9;
+}
+
+.category li:hover {
+  background: #f4f4f4;
+}
+
+.category li button {
+  background: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.category li button:hover {
+  background: #e04747;
+}
+
+.add-category {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.add-category input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 0.5rem;
+}
+
+.add-category button {
+  background: #1d3fd8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-category button:hover {
+  background: #1d3fd8;
+}
